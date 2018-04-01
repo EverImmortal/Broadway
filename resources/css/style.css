@@ -3,29 +3,44 @@
   font-family: Helvetica;
   font-weight: bold;
 }
+
+/*Main title*/
 h1{
   color: white;
   font-size: 65px;
 }
+
+/*Sub title*/
 h2 {
   font-size: 32px;
 }
+
+/*Body titles*/
 h3{
   font-size: 23px;
 }
-p {
-  font-size: 14px;
-  font-weight: normal;
+
+/*Main title 2*/
+h4{
+  color: white;
+  font-size: 23px;
 }
 
+/*Hyperlinks*/
+p, a{
+  color:white;
+  font-size: 18px;
+}
 
+/*assign to div that has background image*/
 .background {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png")
 }
-s
-.Hyperlink {
-  color: white;
-  font-size: 18px;
+
+/*changes the font in the Body div*/
+.body p{
+  color:black;
+  font-weight:normal;
 }
 
 .footer {
@@ -34,3 +49,22 @@ s
   text-align: left;
   background-color: dimgray;
 }
+
+
+
+
+/*
+.Hyperlink {
+  color: white;
+  font-size: 18px;
+}
+
+decided make the default a+p font the hyperlink so I didnt have to assign class
+to all anchors and paragraph elements.
+
+Please give feedback on how I can better organize my css file.
+I just tried to make it so I had the least amount of code writen, but this
+might have made it sloppy and hard to read.
+
+Also I was not able to get the background image to be positioned in the same way as the template.
+*/
