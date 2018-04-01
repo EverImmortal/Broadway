@@ -1,7 +1,6 @@
 *{
   text-align: center;
   font-family: Helvetica;
-  font-weight: bold;
 }
 
 /*Main title*/
@@ -32,22 +31,28 @@ p, a{
   font-size: 18px;
 }
 
+
 /*assign to div that has background image*/
 .background {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png")
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
 
 /*changes the font in the Body div*/
 .body p{
   color:black;
+  font-size: 14px;
   font-weight:normal;
+
 }
 
-.footer {
+.footer{
   color: white;
   font-size: 11px;
   text-align: left;
   background-color: dimgray;
+}
+.footer a, .footer p{
+  font-size: 11px;
 }
 
 
@@ -63,8 +68,11 @@ decided make the default a+p font the hyperlink so I didnt have to assign class
 to all anchors and paragraph elements.
 
 Please give feedback on how I can better organize my css file.
-I just tried to make it so I had the least amount of code writen, but this
-might have made it sloppy and hard to read.
+I tried to minimize the amount of code, but this might have made it sloppy and
+hard to read/understand what i'm doing. Should I instead separate my styles by
+things like color?
 
-Also I was not able to get the background image to be positioned in the same way as the template.
+
+Also, I was not able to get the background image to be positioned in the same way
+as the template.
 */
